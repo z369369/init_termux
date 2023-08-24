@@ -1,6 +1,6 @@
 #!/bin/bash
-cat add_bashrc >> ../../usr/etc/bash.bashrc
+cat add_bashrc >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 echo "--------"
 echo "RESULT : "
-cat ../../usr/etc/bash.bashrc
+cat /data/data/com.termux/files/usr/etc/bash.bashrc
