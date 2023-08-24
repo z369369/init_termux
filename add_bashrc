@@ -1,0 +1,4 @@
+
+alias upgrade='~/init_termux/2_upgrade.sh'
+alias drama='~/dra-cla/dra-cla'
+alias ani='~/ani-cli/ani-cli'
