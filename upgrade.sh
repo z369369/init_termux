@@ -12,4 +12,4 @@ cp -i dra-cla $PREFIX/bin/dra-cla
 cd ~/init_termux
 git reset --hard HEAD
 git pull
-chmod +x ./init_termux/*
+chmod +x ~/init_termux/*
