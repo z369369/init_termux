@@ -1,6 +1,6 @@
 #!/bin/bash
-cat add_bashrc >> $PREFIX/etc/bash.bashrc
+cat add_bashrc >> ../../usr/etc/bash.bashrc
 
 echo "--------"
 echo "RESULT : "
-cat $PREFIX/etc/bash.bashrc
+cat ../../usr/etc/bash.bashrc
