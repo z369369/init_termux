@@ -2,12 +2,12 @@
 cd ~/ani-cli
 git reset --hard HEAD
 git pull
-cp -i ani-cli $PREFIX/bin/ani-cli
+cp -f ani-cli $PREFIX/bin/ani-cli
 
 cd ~/dra-cla
 git reset --hard HEAD
 git pull
-cp -i dra-cla $PREFIX/bin/dra-cla
+cp -f dra-cla $PREFIX/bin/dra-cla
 
 cd ~/init_termux
 git reset --hard HEAD
