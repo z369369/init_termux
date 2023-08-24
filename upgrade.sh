@@ -6,8 +6,8 @@ cd ~
 
 cd ani-cli
 git pull
+cp -i ani-cli $PREFIX/bin/ani-cli
 
 cd dra-cla
 git pull
-
-cd ~
+cp -i dra-cla $PREFIX/bin/dra-cla
