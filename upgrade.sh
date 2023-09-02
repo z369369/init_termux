@@ -27,10 +27,10 @@ cp -f dra-cla $PREFIX/bin/dra-cla
 # git pull
 # cp -f lobster.sh $PREFIX/bin/lobster
 
-rm -rf $PREFIX/bin/jerry
-rm -rf $PREFIX/bin/lobster
-rm -rf ~/lobster
-rm -rf ~/jerry
+# rm -rf $PREFIX/bin/jerry
+# rm -rf $PREFIX/bin/lobster
+# rm -rf ~/lobster
+# rm -rf ~/jerry
 
 
 cd ~/init_termux
