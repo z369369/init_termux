@@ -15,3 +15,5 @@ git clone https://github.com/pystardust/ani-cli
 git clone https://github.com/justchokingaround/jerry
 git clone https://github.com/justchokingaround/lobster
 git clone https://github.com/z369369/init_termux
+
+cp -f .profile ~/
