@@ -32,10 +32,10 @@ done
 
 chmod +x ~/init_termux/*
 
-cp -f ani-cli $PREFIX/bin/ani-cli
-cp -f dra-cla $PREFIX/bin/dra-cla
-cp -f jerry.sh $PREFIX/bin/jerry
-# cp -f lobster.sh $PREFIX/bin/lobster
+cp -f ~/ani-cli/ani-cli $PREFIX/bin/ani-cli
+cp -f ~/dra-cla/dra-cla $PREFIX/bin/dra-cla
+cp -f ~/jerry/jerry.sh $PREFIX/bin/jerry
+# cp -f ~/lobster/lobster.sh $PREFIX/bin/lobster
 
 # rm -rf $PREFIX/bin/jerry
 # rm -rf $PREFIX/bin/lobster
