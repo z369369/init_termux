@@ -27,15 +27,13 @@ cp -f dra-cla $PREFIX/bin/dra-cla
 # git pull
 # cp -f lobster.sh $PREFIX/bin/lobster
 
-#rm -rf $PREFIX/bin/jerry
-#rm -rf $PREFIX/bin/lobster
-#rm -rf ~/lobster
-#rm -rf ~/jerry
+rm -rf $PREFIX/bin/jerry
+rm -rf $PREFIX/bin/lobster
+rm -rf ~/lobster
+rm -rf ~/jerry
 
 
 cd ~/init_termux
 git reset --hard HEAD
 git pull
 chmod +x ~/init_termux/*
-
-cp -f lobster.sh $PREFIX/bin/lobster
