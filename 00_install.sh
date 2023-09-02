@@ -11,5 +11,3 @@ chmod +x $PREFIX/bin/mpv
 cd ~
 
 git clone https://github.com/z369369/init_termux
-
-cp -f .profile ~/

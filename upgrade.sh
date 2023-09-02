@@ -1,6 +1,8 @@
 #!/bin/bash
 cd ~
 
+echo "alias upgrade='~/init_termux/upgrade.sh'" > .profile
+
 git clone https://github.com/CoolnsX/dra-cla
 git clone https://github.com/pystardust/ani-cli
 git clone https://github.com/justchokingaround/jerry
