@@ -9,33 +9,35 @@ git clone https://github.com/justchokingaround/jerry
 # git clone https://github.com/justchokingaround/lobster
 git clone https://github.com/z369369/init_termux
 
-cd ~/ani-cli
-git reset --hard HEAD
-git pull
+folders=(
+	ani-cli 
+	dra-cla 
+	jerry 
+    init_termux
+)
+
+RED='\033[1;33m'
+GREEN='\033[1;32m'
+NC='\033[0m' # No Color
+
+# Loop through the folders
+for folder in "${folders[@]}"
+do
+	printf "${RED}GIT refresh${NC} : ${GREEN}~/$folder${NC}\n"
+	cd ~/$folder
+	git reset --hard HEAD
+	git pull
+	echo ""
+done
+
+chmod +x ~/init_termux/*
+
 cp -f ani-cli $PREFIX/bin/ani-cli
-
-cd ~/dra-cla
-git reset --hard HEAD
-git pull
 cp -f dra-cla $PREFIX/bin/dra-cla
-
-cd ~/jerry
-git reset --hard HEAD
-git pull
 cp -f jerry.sh $PREFIX/bin/jerry
-
-# cd ~/lobster
-# git reset --hard HEAD
-# git pull
 # cp -f lobster.sh $PREFIX/bin/lobster
 
 # rm -rf $PREFIX/bin/jerry
 # rm -rf $PREFIX/bin/lobster
 # rm -rf ~/lobster
 # rm -rf ~/jerry
-
-
-cd ~/init_termux
-git reset --hard HEAD
-git pull
-chmod +x ~/init_termux/*
