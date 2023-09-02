@@ -9,6 +9,16 @@ git reset --hard HEAD
 git pull
 cp -f dra-cla $PREFIX/bin/dra-cla
 
+cd ~/jerry
+git reset --hard HEAD
+git pull
+cp -f jerry.sh $PREFIX/bin/jerry
+
+cd ~/lobster
+git reset --hard HEAD
+git pull
+cp -f lobster.sh $PREFIX/bin/lobster
+
 cd ~/init_termux
 git reset --hard HEAD
 git pull
