@@ -17,10 +17,10 @@ git reset --hard HEAD
 git pull
 cp -f dra-cla $PREFIX/bin/dra-cla
 
-# cd ~/jerry
-# git reset --hard HEAD
-# git pull
-# cp -f jerry.sh $PREFIX/bin/jerry
+cd ~/jerry
+git reset --hard HEAD
+git pull
+cp -f jerry.sh $PREFIX/bin/jerry
 
 # cd ~/lobster
 # git reset --hard HEAD
