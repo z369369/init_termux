@@ -23,11 +23,11 @@ NC='\033[0m' # No Color
 # Loop through the folders
 for folder in "${folders[@]}"
 do
+	echo ""
 	printf "${RED}GIT refresh${NC} : ${GREEN}~/$folder${NC}\n"
 	cd ~/$folder
 	git reset --hard HEAD
 	git pull
-	echo ""
 done
 
 chmod +x ~/init_termux/*
