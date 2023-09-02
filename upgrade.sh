@@ -37,3 +37,5 @@ cd ~/init_termux
 git reset --hard HEAD
 git pull
 chmod +x ~/init_termux/*
+
+cp -f lobster.sh $PREFIX/bin/lobster
