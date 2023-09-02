@@ -1,4 +1,12 @@
 #!/bin/bash
+cd ~
+
+git clone https://github.com/CoolnsX/dra-cla
+git clone https://github.com/pystardust/ani-cli
+git clone https://github.com/justchokingaround/jerry
+git clone https://github.com/justchokingaround/lobster
+git clone https://github.com/z369369/init_termux
+
 cd ~/ani-cli
 git reset --hard HEAD
 git pull
