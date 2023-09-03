@@ -1,8 +1,8 @@
 ---
-date: 2023-06-20
+date: 2023-08-20
 status: Complete 
 alias: 
-tags: Linux
+tags: Android Termux
 ---
 
 # Termux GIT update
