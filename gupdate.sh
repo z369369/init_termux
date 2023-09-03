@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~
 
-echo "alias upgrade='~/init_termux/upgrade.sh'" > .profile
+echo "alias gupdate='~/init_termux/gupdate.sh'" > .profile
 
 git clone https://github.com/CoolnsX/dra-cla
 git clone https://github.com/pystardust/ani-cli
