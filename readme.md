@@ -1,8 +1,8 @@
 ---
 date: 2023-08-20
 status: Complete 
-alias: 
-tags: Android Termux
+alias: Termux
+tags: Android
 ---
 
 # Termux GIT update
