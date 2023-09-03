@@ -7,13 +7,6 @@ tags: Android
 
 # Termux GIT update
 
-## Requirement
-- Language
-    - Korean
-- Packages
-    - sudo 
-    - git
-        
 ## Installation
 ```
 pkg install git
