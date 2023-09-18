@@ -1,8 +1,6 @@
 #!/bin/bash
 cd ~
 
-rm -rf ~/dra-cla
-
 echo "alias gupdate='~/init_termux/git_update.sh'" > .profile
 
 git clone https://github.com/pystardust/ani-cli
