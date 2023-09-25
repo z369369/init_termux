@@ -42,3 +42,10 @@ cp -f ~/jerry/jerry.sh $PREFIX/bin/jerry
 # rm -rf $PREFIX/bin/lobster
 # rm -rf ~/lobster
 # rm -rf ~/jerry
+
+
+pkg up -y
+pip install flix-cli
+echo "#\!/data/data/com.termux/files/usr/bin/sh" > $PREFIX/bin/mpv
+echo 'am start --user 0 -a android.intent.action.VIEW -d "$1" -n is.xyz.mpv/.MPVActivity &' >> $PREFIX/bin/mpv
+chmod +x $PREFIX/bin/mpv
